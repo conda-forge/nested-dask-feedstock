@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - nested-pandas ==0.2.1
+    - nested-pandas >=0.3.0,<0.4.0
     - numpy
     - dask-core >=2024.3.0
     - dask-expr
