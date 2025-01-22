@@ -24,8 +24,8 @@ requirements:
     - python >={{ python_min }}
     - nested-pandas >=0.3.0,<0.4.0
     - numpy
-    - dask-core >=2025.1.0
     - pyarrow
+    - dask-core >=2025.1.0
 
 test:
   imports:
