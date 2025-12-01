@@ -1,5 +1,5 @@
 {% set name = "nested-dask" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nested_dask-{{ version }}.tar.gz
-  sha256: 199c7bbf86f2555ae3a924ccb81a584191232a22536bbba4b7adcdeb839cd7cd
+  sha256: 3b512b63d135b928b37863cfd0b71d53aa5c808cb65552b60ea0647aa2abcf98
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
